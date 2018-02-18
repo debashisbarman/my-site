@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* Base styles & Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --step-up-4: 2.6179em;
+  --step-up-3: 2.0581em;
+  --step-up-2: 1.618em;
+  --step-up-1: 1.272em;
+  --step-down-1: .7862em; }
+
+html {
+  font: 400 100% 'Lato', sans-serif; }
+
+body {
+  margin: 0;
+  color: #81878c;
+  line-height: 2; }
+
+h1 {
+  font-size: var(--step-up-1);
+  font-weight: 700; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: var(--step-up-2); } }
+
+h2 {
+  font-weight: 700;
+  line-height: 1.5; }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: var(--step-up-4); } }
+
+h3 {
+  margin-top: 0;
+  font-weight: 700;
+  color: #2f363f; }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: var(--step-up-2); } }
+
+p {
+  font-size: 1rem;
+  font-weight: 400; }
+  @media screen and (min-width: 768px) {
+    p.lead {
+      font-size: var(--step-up-1); } }
+
+u {
+  text-decoration: none;
+  border-bottom: 1px dashed #fff; }
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  cursor: pointer; }
+  a.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 34px;
+    padding-left: 34px;
+    font-size: var(--step-down-1);
+    font-weight: 700;
+    color: #fff;
+    line-height: 45px;
+    text-transform: uppercase;
+    background-color: rgba(30, 183, 213, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.1); }
+
+strong {
+  font-weight: 700; }
+
+small {
+  font-size: 0.7862rem; }
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.grid {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 30px; }
+  @media screen and (min-width: 768px) {
+    .grid {
+      padding-top: 89px;
+      padding-right: 30px;
+      padding-bottom: 89px;
+      padding-left: 30px; } }
+  .grid > .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .grid > .row > .col {
+      flex-basis: 100%; }
+      @media screen and (min-width: 768px) {
+        .grid > .row > .col {
+          flex: 1; } }
+
+/* Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.db-site.db-site--header {
+  display: flex;
+  color: #fff;
+  background-image: url(../assets/bg.svg), linear-gradient(0deg, #1eb7d5 0, #00b0a1 100%);
+  background-size: cover;
+  background-position: top center;
+  align-items: center; }
+  @media screen and (min-width: 768px) {
+    .db-site.db-site--header {
+      padding-top: 55px; } }
+  @media screen and (min-width: 768px) {
+    .db-site.db-site--header h2 {
+      max-width: 89%; } }
+  .db-site.db-site--header a {
+    color: #fff;
+    border-bottom: 1px solid #fff; }
+@media screen and (min-width: 768px) {
+  .db-site.db-site--project {
+    padding-top: 55px;
+    padding-bottom: 55px; } }
+.db-site.db-site--project:nth-child(odd) {
+  background-color: #f9f9f9; }
+.db-site.db-site--project .project-title {
+  text-transform: capitalize; }
+.db-site.db-site--project .project-meta {
+  margin-bottom: 0;
+  font-size: var(--step-down-1);
+  line-height: 1;
+  text-transform: uppercase; }
+.db-site.db-site--project .col + .col {
+  padding-top: 30px; }
+  @media screen and (min-width: 768px) {
+    .db-site.db-site--project .col + .col {
+      padding-top: 0;
+      padding-left: 55px; } }
+.db-site.db-site--project .browser-mockup {
+  flex: 1;
+  position: relative;
+  background-color: #fff;
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.1); }
+  .db-site.db-site--project .browser-mockup:before {
+    display: block;
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    top: -1.25em;
+    left: 1em;
+    border-radius: 50%;
+    background-color: #f44;
+    content: '';
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5; }
+  .db-site.db-site--project .browser-mockup > * {
+    display: block; }
+  .db-site.db-site--project .browser-mockup .img {
+    width: 100%;
+    height: 150px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px; }
+    @media screen and (min-width: 768px) {
+      .db-site.db-site--project .browser-mockup .img {
+        height: 300px; } }
+    .db-site.db-site--project .browser-mockup .img.img--bg-leopetra {
+      background-image: url(../assets/leopetra.jpg); }
+    .db-site.db-site--project .browser-mockup .img.img--bg-nkc {
+      background-image: url(../assets/nkc.png); }
+  .db-site.db-site--project .browser-mockup pre {
+    display: block;
+    margin: 0;
+    padding: 15px;
+    font: 400 var(--step-down-1) Menlo, Monaco, "Courier New", monospace;
+    line-height: 2;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word; }
+    .db-site.db-site--project .browser-mockup pre.pre-scrollable {
+      height: 150px;
+      overflow-y: hidden; }
+      @media screen and (min-width: 768px) {
+        .db-site.db-site--project .browser-mockup pre.pre-scrollable {
+          height: 300px; } }
+.db-site.db-site--aside {
+  background-color: rgba(30, 183, 213, 0.8); }
+  .db-site.db-site--aside .col + .col {
+    padding-top: 30px; }
+    @media screen and (min-width: 768px) {
+      .db-site.db-site--aside .col + .col {
+        padding-top: 0;
+        padding-left: 55px; } }
+  .db-site.db-site--aside .project-block {
+    display: flex;
+    flex-direction: column;
+    min-height: 144px;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.1); }
+    @media screen and (min-width: 768px) {
+      .db-site.db-site--aside .project-block {
+        padding: 30px; } }
+    .db-site.db-site--aside .project-block .lead {
+      font-weight: 700;
+      color: #2f363f; }
+      .db-site.db-site--aside .project-block .lead span {
+        display: block;
+        font-size: var(--step-down-1);
+        font-weight: 400;
+        line-height: 1;
+        color: #81878c; }
+.db-site.db-site--contact .icons {
+  margin-top: 30px;
+  margin-bottom: 0; }
+  @media screen and (min-width: 768px) {
+    .db-site.db-site--contact .icons {
+      margin-top: 55px; } }
+  .db-site.db-site--contact .icons a {
+    color: inherit; }
+.db-site.db-site--contact .colphon {
+  margin-top: 55px;
+  font-size: var(--step-down-1); }
+  @media screen and (min-width: 768px) {
+    .db-site.db-site--contact .colphon {
+      margin-top: 55px; } }
+
+/*# sourceMappingURL=master.css.map */
