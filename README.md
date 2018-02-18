@@ -12,9 +12,10 @@ In case you're wondering, this site is:
   - Hosted on `Firebase` [(https://firebase.google.com/)](https://firebase.google.com/)
 
 You can find more about the site on [https://github.com/debashisbarman/my-site/](https://github.com/debashisbarman/my-site/). The design
-and code powering the site is licensed under MIT [(http://opensource.org/licenses/MIT)]((http://opensource.org/licenses/MIT)).
+and code powering the site is licensed under `MIT` [(http://opensource.org/licenses/MIT)]((http://opensource.org/licenses/MIT)).
 However, the content of the following directories are not for re-use without permission:
   - `static/img`
 
 Cheers,
--Debashis Barman
+
+-*Debashis Barman*
