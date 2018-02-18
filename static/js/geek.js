@@ -14,6 +14,7 @@
 		You can find more about the site on https://github.com/debashisbarman/my-site/. The design
 		and code powering the site is licensed under MIT (http://opensource.org/licenses/MIT).
 		However, the content of the following directories are not for re-use without permission:
+		  - src/assets
 			- static/img
 		\n
 		Cheers,

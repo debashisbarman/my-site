@@ -9,7 +9,7 @@ export default () => (
           <div className="col">
             <h1>Debashis Barman</h1>
             <h2>
-              I'm a Full Stack JavaScript Developer from India specialize in creating awesome apps using NodeJs, React & React Native.
+              I'm a Full Stack JavaScript Developer from India specialize in creating awesome apps using Node.js, React & React Native.
             </h2>
             <p className="lead">Checkout some of my <u>featured</u> projects below or download my <a href="https://drive.google.com/file/d/1g6mk9dY0jCEBH7vEqT8tG6Y-NIIR-TLb/view" target="_blank" rel="nofollow noreferrer">resume</a>.</p>
           </div>
@@ -29,7 +29,7 @@ export default () => (
                 A one-stop app for all your pet needs. Look up breed information, book vet / veterinarian appointments, dog trainers, day care centres or buy pet supplies.
               </p>
               <p>
-                <strong>Technology :</strong> Node, React, Express, MongoDB, Android
+                <strong>Technology :</strong> Node.js, React, Express, MongoDB, Android
               </p>
               <p>
                 <a className="btn" href="https://angel.co/projects/647654-leopetra-pet-care-made-simple?src=user_profile" target="_blank" rel="nofollow noreferrer">Learn more</a>
@@ -60,7 +60,7 @@ export default () => (
                 A one-stop app for all your pet needs. Look up breed information, book vet / veterinarian appointments, dog trainers, day care centres or buy pet supplies.
               </p>
               <p>
-                <strong>Technology :</strong> Node, React, Gatsby, Firebase
+                <strong>Technology :</strong> Node.js, React, Gatsby, Firebase
               </p>
               <p>
                 <a className="btn" href="https://angel.co/projects/598210-official-website-for-north-kamrup-college?src=more_projects" target="_blank" rel="nofollow noreferrer">Learn more</a>
@@ -81,7 +81,7 @@ export default () => (
                 A one-stop app for all your pet needs. Look up breed information, book vet / veterinarian appointments, dog trainers, day care centres or buy pet supplies.
               </p>
               <p>
-                <strong>Technology :</strong> Node, React, Electron
+                <strong>Technology :</strong> Node.js, React, Electron
               </p>
               <p>
                 <a className="btn" href="https://github.com/debashisbarman/Markdown-Editor" target="_blank" rel="nofollow noreferrer">Learn more</a>
@@ -115,7 +115,7 @@ export default () => (
           <div className="col">
             <div className="project-block">
               <p className="lead">
-                Digital Sofia <span>Node, Twitter API</span>
+                Digital Sofia <span>Node.js, Twitter API</span>
               </p>
               <p>
                 Twitter bot capable to like / retweet a tweet and more advanced features.
@@ -141,7 +141,7 @@ export default () => (
           <div className="col">
             <div className="project-block">
               <p className="lead">
-                Adda <span>Node, Socket.io</span>
+                Adda <span>Node.js, Socket.io</span>
               </p>
               <p>
                 An anonymous online chatting application built in Node.js and Socket.io.

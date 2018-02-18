@@ -27,7 +27,7 @@ module.exports = class HTML extends React.Component {
           <meta charset="utf-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="description" content="Full Stack JavaScript Developer from India specialize in creating awesome apps using NodeJs, React & React Native" />
+          <meta name="description" content="Full Stack JavaScript Developer from India specialize in creating awesome apps using Node.js, React & React Native" />
           <meta name="keywords" content="Debashis Barman, Full stack javascript developer, Node, React, React Native" />
           <meta name="theme-color" content="#00b0a1" />
           <meta name="mobile-web-app-capable" content="yes" />
