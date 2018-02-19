@@ -73,6 +73,9 @@ strong {
 small {
   font-size: 0.7862rem; }
 
+code {
+  font: 400 var(--step-down-1) Menlo, Monaco, "Courier New", monospace; }
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .grid {
